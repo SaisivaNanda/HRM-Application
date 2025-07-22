@@ -10,8 +10,7 @@ public class CacheConfig {
 
     @Bean
     public CacheManager cacheManager() {
-    return new ConcurrentMapCacheManager("project", "voter", "employee", "degree", "passport",
-            "pan", "achievement", "allProjects", "department","team");
+    return new ConcurrentMapCacheManager("aadhaar","achievement","degree","department","departmentEmployees","allDepartments","employeeDepartment","drivingLicense","employee","allEmployees","contact","allContact","address","allAddress","primary","job","Images","pan","passport","project","allProjects","team","employeeTeams","teamEmployees","teamProjects","voter");
     }
 }
 
